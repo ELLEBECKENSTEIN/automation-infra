@@ -1,0 +1,15 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="range.__getitem__" />
+          <option value="list.select_by_index" />
+          <option value="list.click" />
+          <option value="test_action.actions.drag_and_drop" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

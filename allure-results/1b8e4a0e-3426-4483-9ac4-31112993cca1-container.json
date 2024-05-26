@@ -1,0 +1,1 @@
+{"uuid": "06a2ca10-3d92-41c0-b4b2-ed8444aec891", "children": ["3ba8ff70-6713-4505-9bd1-57006dee086c"], "befores": [{"name": "init_desktop_driver", "status": "passed", "start": 1710247318615, "stop": 1710247320621}], "afters": [{"name": "init_desktop_driver::0", "status": "passed", "start": 1710247325294, "stop": 1710247325385}], "start": 1710247318615, "stop": 1710247325385}

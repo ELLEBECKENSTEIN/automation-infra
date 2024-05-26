@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!--General -->
+    <WaitTime>2</WaitTime>
+    <ScreenShotPath>./../allure-screen-shots/</ScreenShotPath>
+
+    <!-- Web % API-->
+    <Browser>Chrome</Browser>
+    <Url>http://localhost:3000/</Url>
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+    <Csv_Location>C:/Automation/pythonProject/test_automation_final_project/data_driven_testing/users.csv</Csv_Location>
+    <Execute_Applitools>no</Execute_Applitools>    <!-->yes/no -->
+    <Applitools_Key>97Wexv3lr3mGaRLoX3tB2v6J0Iodwjfjiu6P8WGwGfFU110</Applitools_Key>
+
+    <!--Mobile -->
+    <Mobile_Device>Android</Mobile_Device>
+    <Udid>d045845a</Udid>
+    <App_Package>com.shivgadhia.android.ukMortgageCalc</App_Package>
+    <App_Activity>.MainActivity</App_Activity>
+    <Bundle_Id>com.shivgadhia.ukMortgageCalc</Bundle_Id>
+    <Appium_Server>http://localhost:4724/wd/hub</Appium_Server>
+    <Swipe_Duration>200</Swipe_Duration>
+
+    <!-- Electron -->
+    <Electron_App>C:/Users/Dan Beckenstein/AppData/Local/Programs/todolist/Todolist.exe</Electron_App>
+    <Electron_Driver>C:/Automation/pythonProject/test_automation_final_project/drivers/electrondriver.exe</Electron_Driver>
+
+
+    <!-- Desktop -->
+    <Application_Name>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</Application_Name>
+    <WinAppDriver_Service>http://127.0.0.1:4723</WinAppDriver_Service>
+
+    <!-- Database -->
+    <DB_Host>sql5.freemysqlhosting.net</DB_Host>
+    <DB_Name>sql5677371</DB_Name>
+    <DB_User>sql5677371</DB_User>
+    <DB_Password>A9hdQKzKEX</DB_Password>
+
+</Environment>
+
